@@ -1,0 +1,103 @@
+* {margin:0;padding:0}
+
+body {display:block;line-height:22px}
+
+.fix {overflow:hidden}
+.main {width:1170px;margin:0 auto}
+.header_area {background:#202628}
+.header {}
+.header h2 {font-family: 'Fjalla One', sans-serif;font-size:25px;color:#e7e7e7;width:170px;padding:20px;text-transform:uppercase;font-weight:normal}
+.header ul {margin:0;padding:0;list-style:none;width:1000px;margin-left:580px;margin-top:-65px}
+.header ul li {display:block;float:left;padding:20px}
+.header ul li a {font-size:13px;color:#e7e7e7;font-family: 'Fjalla One', sans-serif;text-decoration:none}
+.header ul li a:hover {background-color:#e84c3d;padding:20px}
+.slider {height:560px}
+.slider_image {position:relative;background:url(images/banner_bg.png) repeat 0 0 scroll #666155}
+.left_navigator {position:absolute;margin-left:175px;margin-top:-480px}
+.right_navigator {position:absolute;margin-left:211px;margin-top:-480px}
+.slider_text_1 {position:absolute;font-size:31px;font-family: 'Fjalla One', sans-serif;margin-left:175px;color:#e7e7e7;margin-top:-385px;line-height:30px;text-transform:uppercase;font-weight:normal}
+.slider_text_1 img {margin-left:165px;margin-top:-15px}
+.slider_text_2 {position:absolute;font-size:31px;font-family: 'Fjalla One', sans-serif;margin-left:175px;color:#e7e7e7;margin-top:-340px;line-height:30px;text-transform:uppercase}
+.slider_text_3 {position:absolute;font-family: 'Fjalla One', sans-serif;font-size:15px;margin-left:175px;line-height:30px;margin-top:-295px}
+.slider_text_3 p {}
+.slider_text_3 p a {text-decoration:none;color:#E84C3D}
+.row_1_area {background:#e7e7e7}
+.row_1 {padding-bottom:75px}
+.aliquam {width:370px;float:left;margin-right:30px}
+.aliquam img {margin:80px 30px 0 0;width:70px;float:left;display:block}
+.aliquam h2 {font-family: 'Fjalla One', sans-serif;font-size:21px;color:#202628;margin-top:80px;float:left;margin-bottom:30px;text-transform:uppercase;font-weight:normal}
+.aliquam p {width:270px;display:block;font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e;float:left}
+.aliquam p a {color:#e84c3d;text-decoration:none}
+.cras {width:400px;float:left}
+.cras img {margin:80px 30px 0 0;width:70px;float:left;display:block}
+.cras h2 {font-family: 'Fjalla One', sans-serif;font-size:21px;color:#202628;margin-top:80px;float:left;margin-bottom:30px;text-transform:uppercase;font-weight:normal}
+.cras p {width:270px;display:block;font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e;float:left}
+.cras p a {color:#e84c3d;text-decoration:none}
+.vivamus {width:370px;float:left}
+.vivamus img {margin:80px 30px 0 0;width:70px;float:left;display:block}
+.vivamus h2 {font-family: 'Fjalla One', sans-serif;font-size:21px;color:#202628;margin-top:80px;float:left;margin-bottom:30px;text-transform:uppercase;font-weight:normal}
+.vivamus p {width:270px;display:block;font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e;float:left}
+.vivamus p a {color:#e84c3d;text-decoration:none}
+.row_2 {margin-top:80px;margin-bottom:80px}
+.maincontent {width:800px;float:left}
+.content_1 {}
+.content_1 h2 {font-family: 'Fjalla One', sans-serif;font-size:21px;color:#202628;text-transform:uppercase;font-weight:normal}
+.content_1 p {font-family: 'Lato', sans-serif;font-size:20px;color:#e84c3d;margin-top:30px;margin-bottom:30px}
+.content_2 {width:370px;margin-right:30px;float:left}
+.content_2 h2 {font-size:16px;color:#202628;font-family: 'Lato', sans-serif;font-weight:bold;margin-bottom:10px}
+.content_2 p {font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e}
+.content_2 h3 {background:#e84c3d;padding:10px;font-family: 'Oswald', sans-serif;font-size:14px;width:70px;margin-top:35px;text-align:center;border-radius:25px;text-transform:uppercase;font-weight:normal}
+.content_2 h3 a {color:#ffffff;text-decoration:none}
+.content_3 {width:370px;margin-right:30px;float:right}
+.content_3 h2 {font-size:16px;color:#202628;font-family: 'Lato', sans-serif;font-weight:bold;margin-bottom:10px}
+.content_3 p {font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e}
+.content_3 h3 {background:#e84c3d;padding:10px;font-family: 'Oswald', sans-serif;font-size:14px;width:70px;margin-top:35px;text-align:center;border-radius:25px;text-transform:uppercase;font-weight:normal}
+.content_3 h3 a {color:#ffffff;text-decoration:none}
+.content_image {float:right;width:370px}
+.row_3 {background:#e84c3d;border-radius:10px;margin-bottom:70px}
+.man_icon {width:70px;float:left;padding:50px 0 65px 30px}
+.text {width:500px;display:block;float:left}
+.text h1 {display:block;padding:50px 30px 20px 30px;font-family: 'Fjalla One', sans-serif;font-size:21px;color:#ffffff;text-transform:uppercase;font-weight:normal}
+.text p {padding:0 30px 0 30px;font-family: 'Lato', sans-serif;font-size:16px;color:#fff;display:block}
+.text p span {font-size:14px;font-style:italic}
+.text_form {width:520px;float:left;display:block;padding-left:20px;}
+.form_text {}
+.form_text h1 {padding:50px 0 30px 0;font-family: 'Fjalla One', sans-serif;font-size:21px;color:#fff;text-transform:uppercase;font-weight:normal}
+.form {}
+.email_input {border-radius:25px;height:40px;padding:10px;color:#9faaad;font-size:14px;font-family: 'Lato', sans-serif;font-style:italic;border:none}
+.subscribe {border-radius:25px;height:40px;background:#202628;color:#fff;font-family: 'Fjalla One', sans-serif;font-size:15px;padding:0 10px;text-transform:uppercase;border:none}
+.row_4 {}
+.column_1 {width:370px;margin-right:30px;float:left;display:block}
+.column_1 h2 {font-family: 'Fjalla One', sans-serif;color:#202628;font-size:21px;text-transform:uppercase;padding-bottom:30px;font-weight:normal;border-bottom:1px solid #E7E7E7}
+.single_promo {}
+.single_promo img {width:70px;padding:30px 30px 30px 0;float:left;display:block}
+.single_promo p {margin-top:40px;font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e;line-height:30px}
+.single_promo h3 {font-family: 'Lato', sans-serif;font-size:14px;color:#e84c3d;padding-bottom:30px;border-bottom:1px solid #e7e7e7;font-weight:normal}
+.single_promo h3 a {text-decoration:none;color:#e84c3d}
+.column_2 {width:370px;margin-right:30px;float:left;display:block}
+.column_2 h2 {font-family: 'Fjalla One', sans-serif;color:#202628;font-size:21px;text-transform:uppercase;padding-bottom:30px;font-weight:normal}
+.single_form {background:#e7e7e7;padding:30px;border-radius:10px}
+.single_form p {font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e;margin-bottom:45px}
+.name {width:310px;height:40px;margin-bottom:35px;border-radius:25px;border:none;color:#9faaad;font-size:14px;font-family: 'Lato', sans-serif;font-style:italic}
+.email {width:310px;height:40px;margin-bottom:35px;border-radius:25px;border:none;color:#9faaad;font-size:14px;font-family: 'Lato', sans-serif;font-style:italic}
+.query {width:310px;height:80px;margin-bottom:35px;border-radius:10px;border:none;color:#9faaad;font-size:14px;font-family: 'Lato', sans-serif;font-style:italic}
+.submit {width:100px;height:40px;border-radius:25px;border:none;background:#e84c3d;color:#fff;font-family: 'Fjalla One', sans-serif;font-size:15px;padding:0 10px;text-transform:uppercase}
+.column_3 {width:300px;margin-right:70px;float:left;display:block}
+.column_3 h2 {font-family: 'Fjalla One', sans-serif;color:#202628;font-size:21px;text-transform:uppercase;padding-bottom:30px;font-weight:normal;border-bottom:1px solid #E7E7E7}
+.single {}
+.single img {padding:30px 22px 69px 0px;display:block;float:left;width:27px}
+.single h2 {border:none;font-family: 'Lato', sans-serif;font-size:16px;color:#e84c3d;font-weight:bold;margin-top:30px;display:block;padding:0;margin-bottom:15px}
+.single p {font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e;padding-bottom:30px;border-bottom:1px solid #e7e7e7}
+.footer_area {margin-top:60px;background:#202628;padding:80px}
+.footer {}
+.footer_menu {}
+.footer_menu ul {margin:0;padding:0;list-style:none;margin-left:-30px}
+.footer_menu ul li {float:left;background:url(images/footer_menu_separator.png) no-repeat scroll right center}
+.footer_menu ul li a {display:block;padding:30px;text-decoration:none;font-family: 'Lato', sans-serif;font-size:14px;color:#e7e7e7}
+.footer_menu ul li a:hover {color:#e84c3d}
+.footer_menu p {float:left;font-family: 'Lato', sans-serif;font-size:14px;color:#767c7e}
+.footer_menu p span {color:#e84c3d}
+.social_icon {float:right;margin-top:-70px}
+.social_icon a {}
+.social_icon a img:hover {background:#0078d7}
+.social_icon a img {background:#e84c3d;padding:10px;border-radius:50px}
